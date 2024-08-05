@@ -1,3 +1,6 @@
+![Alt text](./README/LOGO.png)
+
+
 # StudyTrack Student Academic System
 
 ## Introduction
