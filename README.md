@@ -20,24 +20,25 @@ Welcome to the StudyTrack Student Academic System! Our project is designed to pr
 - **Database**: MySQL
 - **Styling**: CSS, Bootstrap
 
-This project is developed under the supervision of **D.Pear** and the guidance of **Eng. Amir**.
 
 
+## Colors used on the page
 <!-- HTML for layout -->
 <div style="display: flex; align-items: center; justify-content: space-around;">
     <div style="flex: 1; margin-right: 10px;">
-        <img src="./README/1.png" alt="Image 1" style="width: 10%; ">
-        <p>Text for Image 1</p>
+        <p >#3A6AB9 <img src="./README/1.png" alt="Image 1" style="width: 15%;"> </p>
     </div>
     <div style="flex: 1; margin-right: 10px;">
-        <img src="./README/2.png" alt="Image 2" style="width: 100%; max-width: 200px;">
-        <p>Text for Image 2</p>
+        <p>#3881B6 <img src="./README/2.png" alt="Image 2" style="width: 15%;"></p>
     </div>
     <div style="flex: 1;">
-        <img src="./README/3.png" alt="Image 3" style="width: 100%; max-width: 200px;">
-        <p>Text for Image 3</p>
+        <p>#69A2CD <img src="./README/3.png" alt="Image 3" style="width: 15%;"></p>
+    </div>
+    <div style="flex: 1;">
+        <p>#FFFFFF  <img src="./README/4.png" alt="Image 3" style="width: 15%;"></p>
     </div>
 </div>
 
-<!-- Images below -->
-![#FFFFFF](./README/4.png)
+<p>This project is developed under the supervision of <span style="color: #3A6AB9 ;">D.Pear</span> and the guidance of <span style="color: #3A6AB9 ;">Eng. Amir</span>.</p>
+
+
