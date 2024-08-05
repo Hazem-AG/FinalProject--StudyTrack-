@@ -39,6 +39,9 @@ Welcome to the StudyTrack Student Academic System! Our project is designed to pr
     </div>
 </div>
 
-<p>This project is developed under the supervision of <span style="color: #3A6AB9 ;">D.Pear</span> and the guidance of <span style="color: #3A6AB9 ;">Eng. Amir</span>.</p>
+
+
+This project is developed under the supervision of **D.Pear** and the guidance of **Eng. Amir.**
+
 
 
