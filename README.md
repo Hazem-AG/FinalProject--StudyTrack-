@@ -22,3 +22,9 @@ Welcome to the StudyTrack Student Academic System! Our project is designed to pr
 
 This project is developed under the supervision of **D.Pear** and the guidance of **Eng. Amir**.
 
+
+![#3A6AB9](./README/1.png)
+![#3881B6](./README/2.png)
+![#69A2CD](./README/3.png)
+![#FFFFFF](./README/4.png)
+
