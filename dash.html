@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f0f8ff;
+        }
+        
+        .card {
+            background-color: #007bff;
+            color: white;
+            margin: 20px;
+        }
+        
+        .table-container {
+            padding: 20px;
+        }
+        
+        .table thead th {
+            background-color: #007bff;
+            color: white;
+        }
+        
+        .table tbody tr:nth-child(even) {
+            background-color: #e9f7fe;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav class="navbar bg-body-tertiary">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-tachometer-alt"></i> Dashboard
+        </a>
+    </nav>
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-graduation-cap"></i> GPA</h5>
+                        <p class="card-text">3.8</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-book"></i> Number of Sub</h5>
+                        <p class="card-text">6</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-clock"></i> Numb of Hours</h5>
+                        <p class="card-text">18</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fa-regular fa-shield-check"></i> successful</h5>
+                        <p class="card-text">5</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="table-container">
+            <h2 class="text-center mb-4"> All subjects </h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>subject</th>
+                        <th>Grade of subjects </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Modling and simulation</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Network</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>AI</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Operation Reasearch</td>
+
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Data structure</td>
+
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>OOP</td>
+
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Database</td>
+                        <td>85</td>
+                    </tr>
+                    <!-- يمكن إضافة المزيد من الصفوف هنا -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+</html>
