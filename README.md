@@ -23,8 +23,21 @@ Welcome to the StudyTrack Student Academic System! Our project is designed to pr
 This project is developed under the supervision of **D.Pear** and the guidance of **Eng. Amir**.
 
 
-![#3A6AB9](./README/1.png)
-![#3881B6](./README/2.png)
-![#69A2CD](./README/3.png)
-![#FFFFFF](./README/4.png)
+<!-- HTML for layout -->
+<div style="display: flex; align-items: center; justify-content: space-around;">
+    <div style="flex: 1; margin-right: 10px;">
+        <img src="./README/1.png" alt="Image 1" style="width: 100%; max-width: 200px;">
+        <p>Text for Image 1</p>
+    </div>
+    <div style="flex: 1; margin-right: 10px;">
+        <img src="./README/2.png" alt="Image 2" style="width: 100%; max-width: 200px;">
+        <p>Text for Image 2</p>
+    </div>
+    <div style="flex: 1;">
+        <img src="./README/3.png" alt="Image 3" style="width: 100%; max-width: 200px;">
+        <p>Text for Image 3</p>
+    </div>
+</div>
 
+<!-- Images below -->
+![#FFFFFF](./README/4.png)
