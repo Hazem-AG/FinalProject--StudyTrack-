@@ -26,7 +26,7 @@ This project is developed under the supervision of **D.Pear** and the guidance o
 <!-- HTML for layout -->
 <div style="display: flex; align-items: center; justify-content: space-around;">
     <div style="flex: 1; margin-right: 10px;">
-        <img src="./README/1.png" alt="Image 1" style="width: 100%; max-width: 200px;">
+        <img src="./README/1.png" alt="Image 1" style="width: 10%; ">
         <p>Text for Image 1</p>
     </div>
     <div style="flex: 1; margin-right: 10px;">
