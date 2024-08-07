@@ -9,53 +9,31 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 
-    <style>
-        body {
-            background-color: #f0f8ff;
-        }
-        
-        .card {
-            background-color: #007bff;
-            color: white;
-            margin: 20px;
-        }
-        
-        .table-container {
-            padding: 20px;
-        }
-        
-        .table thead th {
-            background-color: #007bff;
-            color: white;
-        }
-        
-        .table tbody tr:nth-child(even) {
-            background-color: #e9f7fe;
-        }
-    </style>
+<link rel="stylesheet" href="./Style/Style(Dashboard).css">
 </head>
 
 <body>
 
 
     <nav class="navbar bg-body-tertiary">
-        <a class="navbar-brand" href="#">
-            <i class="fas fa-tachometer-alt"></i> Dashboard
+        <a class="navbar-brand" href="./Dashboard.html" style="color: #000000; font-weight: 500;">
+            <img src="./Style/Src/Black  Modern Education Logo.png" style="width: 30%;" ></img> StudyTrack
         </a>
+        <button type="button" class="btn btn-outline-warning">ADD Subject</button>
     </nav>
     <div class="container">
         <div class="row my-4">
             <div class="col-md-3">
                 <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title"><i class="fas fa-graduation-cap"></i> GPA</h5>
-                        <p class="card-text">3.8</p>
+                    <div class="card-body d-flex align-items-center">
+                        <h5 class="card-title "><i class="fas fa-graduation-cap"></i> GPA</h5>
+                        <p class="card-text " >3.8</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card text-center">
-                    <div class="card-body">
+                <div class="card text-center ">
+                    <div class="card-body d-flex align-items-center">
                         <h5 class="card-title"><i class="fas fa-book"></i> Number of Sub</h5>
                         <p class="card-text">6</p>
                     </div>
@@ -63,7 +41,7 @@
             </div>
             <div class="col-md-3">
                 <div class="card text-center">
-                    <div class="card-body">
+                    <div class="card-body d-flex align-items-center">
                         <h5 class="card-title"><i class="fas fa-clock"></i> Numb of Hours</h5>
                         <p class="card-text">18</p>
                     </div>
@@ -71,62 +49,68 @@
             </div>
             <div class="col-md-3">
                 <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title"><i class="fa-regular fa-shield-check"></i> successful</h5>
+                    <div class="card-body d-flex align-items-center">
+                        <h5 class="card-title"><i class="fas fa-check-circle"></i> Successful</h5>
                         <p class="card-text">5</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="table-container">
-            <h2 class="text-center mb-4"> All subjects </h2>
-            <table class="table table-bordered">
-                <thead>
+            <h2 class="text-center mb-4" style="font-weight: 600; color: #0a3859fe;"> Subjects </h2>
+            <table class="table ">
+                <thead class="table-light ">
                     <tr>
-                        <th>#</th>
-                        <th>subject</th>
+                        <th>Code</th>
+                        <th>Subject</th>
                         <th>Grade of subjects </th>
+                        <th>Hours</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>1</td>
+                        <td>COM205</td>
                         <td>Modling and simulation</td>
-                        <td>90</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Network</td>
-                        <td>85</td>
-                    </tr>
-                    <tr>
+                        <td>A+</td>
                         <td>3</td>
-                        <td>AI</td>
-                        <td>85</td>
                     </tr>
                     <tr>
+                        <td>COM200</td>
+                        <td>Network</td>
+                        <td>B</td>
                         <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>COM220</td>
+                        <td>AI</td>
+                        <td>B+</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>COM200</td>
                         <td>Operation Reasearch</td>
-
-                        <td>85</td>
+                        <td>A</td>
+                        <td>4</td>
                     </tr>
                     <tr>
-                        <td>5</td>
+                        <td>COM150</td>
                         <td>Data structure</td>
-
-                        <td>6</td>
+                        <td>F</td>
+                        <td>2</td>
                     </tr>
                     <tr>
-                        <td>7</td>
+                        <td>COM300</td>
                         <td>OOP</td>
-
-                        <td>85</td>
+                        <td>C</td>
+                        <td>2</td>
                     </tr>
                     <tr>
-                        <td>8</td>
+                        <td>COM250</td>
                         <td>Database</td>
-                        <td>85</td>
+                        <td>C+</td>
+                        <td>3</td>
                     </tr>
+                    
                     <!-- يمكن إضافة المزيد من الصفوف هنا -->
                 </tbody>
             </table>
@@ -135,6 +119,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./Script(JS)/Script(Dashboard).js"></script>
 </body>
 
 </html>
