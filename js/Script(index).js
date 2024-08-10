@@ -1,3 +1,4 @@
+
 document.getElementById("show-signup").addEventListener("click", function (e) {
   e.preventDefault();
   document.getElementById("login-form").style.display = "none";
@@ -9,17 +10,9 @@ document.getElementById("show-login").addEventListener("click", function (e) {
   document.getElementById("signup-form").style.display = "none";
   document.getElementById("login-form").style.display = "block";
 });
-document.getElementById("show-login2").addEventListener("click", function (e) {
-  e.preventDefault();
-  document.getElementById("signup-form").style.display = "none";
-  document.getElementById("login-form").style.display = "block";
-});
 
-const form = document.getElementById("login-form");
-form.addEventListener("submit", function (event) {
-  event.preventDefault();
-  window.location.href = form.action;
-});
+
+
 /*-------------------------------*/
 document.addEventListener("DOMContentLoaded", function () {
   const dropdownButton = document.getElementById("dropdownMenuButton");
@@ -36,3 +29,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
+
+
+ 

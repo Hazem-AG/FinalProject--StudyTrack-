@@ -7,14 +7,14 @@ body {
     background-color: #0a3859fe;
     color: white;
     border-radius: 50px;
-    text-align: center;
+    text-align: center !important;
     height: 50px;
 
     p {
         font-size: 20px;
         position: relative;
         top: 0px;
-        text-align: center;
+        text-align: center !important;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: #b6b6b6;
         left: 12px;
@@ -22,7 +22,7 @@ body {
     }
 
     h5 {
-        text-align: center;
+        text-align: center !important;
         top: 5px;
         position: relative;
     }
@@ -30,13 +30,13 @@ body {
 
 .table-container {
     padding: 20px;
-    text-align: center;
+    text-align: center !important;
 }
 
 .table thead th {
     background-color: #0a3859fe;
     color: white;
-    text-align: center;
+    text-align: center !important;
 
 }
 
@@ -82,3 +82,66 @@ body {
 .navbar button:focus {
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
 }      
+.modal-footer button.btn.btn-primary {
+    background-color: #0a3859fe !important;
+    border: solid 0.5px #0a3859fe;
+
+}
+.modal-footer button:hover.btn.btn-primary {
+    background-color: #082f4bfe !important;
+
+}
+.modal-footer button:active.btn.btn-primary{
+box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+#dropdownMenuButton{
+    background-color: #ffffff;
+    color: #082f4bfe;
+    position: relative;
+    top: -9px;
+
+}
+.dropdown-menu {
+    max-height: 200px;
+    width: 195px;
+    border-radius: 10px;
+    overflow-y: auto;
+
+
+}
+
+
+.dropdown-menu::-webkit-scrollbar {
+    display: none;
+}
+
+.dropdown-menu {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.dropdown-menu input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.dropdown-menu label {
+    display: block;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.dropdown-menu label:hover {
+    background-color: #03274c7c;
+    color: #ffffff;
+}
+#GPA #dropdownMenuButton{
+    position: relative;
+    left: 300px;
+    top: -18px;
+}
+#Subject #dropdownMenuButton{
+    width: 200px;
+
+}

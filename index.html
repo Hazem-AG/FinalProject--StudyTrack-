@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -30,7 +30,7 @@
 
             <div class="col-md-5 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" >
                 <div class="featured-image mb-3">
-                    <img src="./Style/Src/White  Modern Education Logo.png" class="img-fluid" style="" >
+                    <img src="./Style/Src/White  Modern Education Logo.png" class="img-fluid"  >
                 </div>
                 <p class="text-black fs-2" style="font-family: 'Courier New', Courier, monospace; font-weight: 600;  ">StudyTrack</p>
                 <small class="text-black text-wrap text-center" style="width: 17rem;font-family: 'Courier New', Courier, monospace;">Easily manage your academic journey. Enter your details and track your progress.</small>
@@ -44,12 +44,12 @@
                         <h2>Hello</h2>
                         <p>We are happy to have you back.</p>
                     </div>
-                    <form id="login-form" action="./Dashboard.html" method="post">
+                    <form id="login-form" action="./php/login.php" method="post" >
                         <div class="input-group mb-3">
-                            <input type="email" id="email" name="email" class="form-control form-control-lg bg-light fs-6" placeholder="Email address" aria-label="Email address">
+                            <input type="text" id="username" name="username" class="form-control form-control-lg bg-light fs-6" placeholder="Username" aria-label="Username" required>
                         </div>
                         <div class="input-group mb-1">
-                            <input type="password" id="password" name="password" class="form-control form-control-lg bg-light fs-6" placeholder="Password" aria-label="Password">
+                            <input type="password" id="password" name="password" class="form-control form-control-lg bg-light fs-6" placeholder="Password" aria-label="Password" required>
                         </div>
                         <div class="input-group mb-5 d-flex justify-content-between">
                             
@@ -61,16 +61,18 @@
                             <button type="submit" class="btn btn-lg btn-primary w-100 fs-6" >Login</button>
                         </div>
                        
+                       
                         <div class="row">
                             <small>Don't have an account? <a href="#" id="show-signup" style="color: rgb(207, 210, 213);">Sign Up</a></small>
                         </div>
                     </form>
-                    <form id="signup-form" action="" method="post" style="display: none;">
+                    <div id="error-message" style="color: red;"></div>
+                    <form id="signup-form" action="./php/register.php" method="post" style="display: none;">
                         <div class="input-group mb-3">
-                            <input type="text" id="username" name="username" class="form-control form-control-lg bg-light fs-6" placeholder="Username" aria-label="Username">
+                            <input type="text" id="username" name="username" class="form-control form-control-lg bg-light fs-6" placeholder="Username" aria-label="Username" required>
                         </div>
                         <div class="input-group mb-3">
-                            <input type="password" id="signup-password" name="password" class="form-control form-control-lg bg-light fs-6" placeholder="Password" aria-label="Password">
+                            <input type="password" id="password" name="password" class="form-control form-control-lg bg-light fs-6" placeholder="Password" aria-label="Password" required>
                         </div>
                         <div class="input-group mb-3">
                             <div class="container mt-5">
@@ -78,29 +80,17 @@
                                 <div class="dropdown">
                                     <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
-                                            aria-expanded="false">
+                                            aria-expanded="false" required>
                                             Select Department
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
                                             <li>
-                                                <input type="radio" id="cs" name="department" value="ComputerScience">
+                                                <input type="radio" id="cs" name="department_id" value="1" required>
                                                 <label for="cs" class="dropdown-item">Computer Science</label>
                                             </li>
                                             <li>
-                                                <input type="radio" id="eng" name="department" value="Engineering">
-                                                <label for="eng" class="dropdown-item">Engineering</label>
-                                            </li>
-                                            <li>
-                                                <input type="radio" id="math" name="department" value="Mathematics">
-                                                <label for="math" class="dropdown-item">Mathematics</label>
-                                            </li>
-                                            <li>
-                                                <input type="radio" id="phy" name="department" value="Physics">
-                                                <label for="phy" class="dropdown-item">Physics</label>
-                                            </li>
-                                            <li>
-                                                <input type="radio" id="che" name="department" value="Chemistry">
-                                                <label for="che" class="dropdown-item">Chemistry</label>
+                                                <input type="radio" id="Chm" name="department_id" value="2" required>
+                                                <label for="Chm" class="dropdown-item">Chemistry</label>
                                             </li>
                                         </ul>
                                     </div>
@@ -118,7 +108,8 @@
        
     </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="./Script(JS)/Script(index).js"></script>
+<script src="./js/Script(index).js"></script>
+
 
 
    
