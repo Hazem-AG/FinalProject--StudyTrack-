@@ -1,4 +1,3 @@
-
 <html lang="en">
 
 <head>
@@ -9,6 +8,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 <link rel="stylesheet" href="./Style/Style(Dashboard).css">
@@ -131,40 +131,13 @@
                 </div>
                 <div class="modal-body">
                     <div class="dropdown" id="Subject">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-bs-toggle="dropdown" aria-expanded="false" required>
-                                Select Subject
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <li>
-                                    <input type="radio" id="cs" name="department_id" value="1" required>
-                                    <label for="cs" class="dropdown-item">DataBase</label>
-                                </li>
-                                <li>
-                                    <input type="radio" id="Chm" name="department_id" value="2" required>
-                                    <label for="Chm" class="dropdown-item">Chemistry</label>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="dropdown" id="GPA">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-bs-toggle="dropdown" aria-expanded="false" required>
-                                Grad
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <li>
-                                    <input type="radio" id="cs" name="department_id" value="1" required>
-                                    <label for="cs" class="dropdown-item">DataBase</label>
-                                </li>
-                                <li>
-                                    <input type="radio" id="Chm" name="department_id" value="2" required>
-                                    <label for="Chm" class="dropdown-item">Chemistry</label>
-                                </li>
-                            </ul>
-                        </div>
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-bs-toggle="dropdown" aria-expanded="false" required>
+                            Select Subject
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <!-- Dynamic content will be inserted here -->
+                        </ul>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -183,24 +156,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="dropdown">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                                data-bs-toggle="dropdown" aria-expanded="false" required>
-                                ----------
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <li>
-                                    <input type="radio" id="cs" name="department_id" value="1" required>
-                                    <label for="cs" class="dropdown-item">DataBase</label>
-                                </li>
-                                <li>
-                                    <input type="radio" id="Chm" name="department_id" value="2" required>
-                                    <label for="Chm" class="dropdown-item">Chemistry</label>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -210,6 +166,8 @@
         </div>
     </div>
 
+
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
