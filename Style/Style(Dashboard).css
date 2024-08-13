@@ -103,9 +103,10 @@ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 .dropdown-menu {
     max-height: 200px;
-    width: 195px;
+    width: 300px;
     border-radius: 10px;
     overflow-y: auto;
+    text-align: center;
 
 
 }
@@ -141,7 +142,8 @@ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
     left: 300px;
     top: -18px;
 }
-#Subject #dropdownMenuButton{
-    width: 200px;
+ #dropdownMenuButton{
+    width: 300px ;
+
 
 }
