@@ -1,3 +1,4 @@
+
 document.getElementById("newpassward").addEventListener("click", function (e) {
   e.preventDefault();
   document.getElementById("signup-form").style.display = "none";
@@ -18,6 +19,15 @@ document.getElementById("show-login").addEventListener("click", function (e) {
   document.getElementById("login-form").style.display = "block";
   document.getElementById("userForm").style.display = "none";
 });
+
+document.getElementById("show-login2").addEventListener("click", function (e) {
+  e.preventDefault();
+  document.getElementById("signup-form").style.display = "none";
+  document.getElementById("login-form").style.display = "block";
+  document.getElementById("userForm").style.display = "none";
+});
+
+
 
 
 

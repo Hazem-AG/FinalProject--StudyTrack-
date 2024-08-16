@@ -7,8 +7,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $query = $conn->prepare('SELECT * FROM `users` WHERE username = ?');
     $query->execute([$username]);
     $user = $query->fetch();
-    
-    
 
     if ($user) {
         echo json_encode([

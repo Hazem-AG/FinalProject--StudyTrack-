@@ -1,14 +1,20 @@
 body {
     background-color: #ffffff;
-}
+    user-select: none;
+    }
+
+    
+
 
 
 .card {
-    background-color: #0a3859fe;
+    background-color: #23455d00;
     color: white;
-    border-radius: 50px;
+    border: none;
     text-align: center !important;
     height: 50px;
+    border-radius: 50px;
+    
 
     p {
         font-size: 20px;
@@ -16,7 +22,7 @@ body {
         top: 0px;
         text-align: center !important;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: #b6b6b6;
+        color: #65bffffe;
         left: 12px;
         font-weight: 500;
     }
@@ -29,13 +35,43 @@ body {
 }
 
 .table-container {
+    display: flex;
+    top: 30px;
+    justify-content: center !important;
     padding: 20px;
+    background-color: rgba(0, 255, 255, 0);
+    position: relative;
     text-align: center !important;
+    overflow-y: auto;
+    max-height: 695px;
+    scrollbar-width: none;
 }
 
+.table-container::-webkit-scrollbar {
+    display: none;
+}
+.container{
+    display: flex;
+    justify-content: center !important;
+}
+.container .row{
+    width: 90%;
+    border-radius: 50px;
+}
+ 
+.table{
+    background-color: #a2b6d1fe;
+    position: relative;
+    top: -20px;
+    
+}
 .table thead th {
-    background-color: #0a3859fe;
+
+    top: -20px;
+    position: sticky;
+    background-color: #23455dfe;
     color: white;
+        border: #afc5e0fe;
     text-align: center !important;
 
 }
@@ -43,32 +79,41 @@ body {
 .table tr {
     background-color: #a2b6d1fe;
     color: #0a3859fe;
+    border: #afc5e0fe;
     font-weight: 500;
     font-size: 18px;
+
 }
 
 .table tbody tr:hover {
     background-color: #afc5e0fe;
-    transform: scale(1.02);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: #afc5e0fe;
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(10, 56, 89, 0.447);
+    cursor: pointer;
+}
+.navbar{
+    background-color: rgba(10, 56, 89, 0.996);
+        box-shadow: 0 4px 8px rgba(10, 56, 89, 0.447);
 }
 
 .navbar button {
     position: relative;
+
     top: -10px;
-    color: #0a3859fe;
+    color: #fffffffe;
     font-weight: 600;
-    border: solid 0.5px #0a3859fe;
+    border: solid 0.5px #fffffffe;
 
     button:hover {
-        background-color: #0a3859fe;
+        background-color: #fffffffe;
 
     }
 }
 
 .navbar button:hover {
-    background-color: #0a3859fe;
-    color: #ffffff;
+    background-color: #fffffffe;
+    color: #0a3859fe;
     border: solid 0.5px #0a3859fe;
 }
 
@@ -94,11 +139,16 @@ body {
 .modal-footer button:active.btn.btn-primary{
 box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
-#dropdownMenuButton{
+#dropdownMenuButton ,
+#dropdownMenuButton2 ,
+#dropdownMenuButton1 ,
+#dropdownMenuButton3,
+#dropdownMenuButton4{
     background-color: #ffffff;
     color: #082f4bfe;
     position: relative;
     top: -9px;
+    width: 300px;
 
 }
 .dropdown-menu {
@@ -111,6 +161,12 @@ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
 
 }
 
+ #dropdownMenuList2 , #dropdownMenuList4{
+    width: 65px;
+    max-width: 65px;
+    font-size: large;
+    text-align: center;
+}
 
 .dropdown-menu::-webkit-scrollbar {
     display: none;
@@ -142,8 +198,20 @@ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
     left: 300px;
     top: -18px;
 }
- #dropdownMenuButton{
-    width: 300px ;
+ #dropdownMenuButton2 , #dropdownMenuButton4{
+    width: 160px ;
 
 
+}
+.table-container tbody{
+    text-align: center;
+}
+.fas.fa-eraser{
+    position: relative !important;
+    left: -50px !important;
+
+}
+#dropdownMenuButton3{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    cursor: not-allowed;
 }
