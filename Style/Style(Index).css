@@ -134,20 +134,28 @@ img{
 .rounded-5{
     border-radius: 30px;
 }
+@media only screen and (min-width: 600px) and (max-width: 785px) {
+.dropdown {
+        position: relative;
+        left: -93%;
+    }
 
+}
 @media only screen and (max-width: 600px) {
-
+body{
+    overflow: hidden;
+}
 
     .left-box {
         border-radius: 10px !important;
             width: 300px;
-            height: 200px;
+            height: 150px;
             position: relative;
-            top: -320px;
-            left: 20%;
+            top: -250px;
+            left: 140px;
     img {
         position: relative;
-        top: 10px;
+        top: 25px;
         left: -65px;
         width: 80px;
 
@@ -155,7 +163,7 @@ img{
 
     p {
         position: relative;
-        top: -45px;
+        top: -30px;
         left: 30px;
         font-size: 18px !important;
         color: rgb(178, 178, 178) !important;
@@ -164,12 +172,13 @@ img{
 
     small {
         position: relative;
-        color: rgb(178, 178, 178) !important;
+        color: #0a3859fe !important;
         text-align: left !important;
         font-size: 12px !important;
         width: 200px !important;
         left: -10px;
         top: -40px;
+        
 
     }
     }
@@ -178,9 +187,8 @@ img{
             padding: 40px 30px 40px 40px;
             background-color: #ffffff98;
             border-radius: 20px;
-            width: 200px !important;
             position: relative;
-            left: -60px;
+            left: -140px;
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(10px);
@@ -196,6 +204,12 @@ img{
                 color: rgb(228, 228, 228);
             }
         }
-
+        .row.align-items-center{
+            width: 250px;
+        }
+    .dropdown{
+        position: relative;
+        left: -108%;
+    }
 }
 
