@@ -1,4 +1,10 @@
-![Alt text](./README/LOGO.png)
+<p style="text-align: center;">
+    <a href="http://studytrack0.free.nf/" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: white; background-color: #3A6AB9; text-decoration: none; border-radius: 5px;">Go to Page</a>
+</p>
+
+![Alt text](./README/LOGO.png) 
+
+<!-- Replace 'URL_HERE' with the actual URL you want to navigate to -->
 
 
 # StudyTrack Student Academic System
